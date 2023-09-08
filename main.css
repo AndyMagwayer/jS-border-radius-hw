@@ -16,35 +16,46 @@ AndyMagwayer
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
-.container{
+.container {
     text-align: center;
     padding: 20px;
-}
-
-.gradient-preview{
+    width: 100%;
+    max-width: 100%;
+    background-image: url(https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2023/02/rsz_1a320_aib_sharklet_in_flight.jpg);
+    block-size: 100%;
+    background-position: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .gradient-preview {
     width: 200px;
     height: 200px;
     margin: 20px auto;
-}
-
-textarea{
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
     width: 300px;
     height: 100px;
-    margin: 20px auto;   
-}
-
-button{
+    margin: 20px auto;
+  }
+  
+  button {
     padding: 10px 20px;
-    background-color:  #4CAF50;
-    color: #fff;
+    background-color: #4CAF50;
+    color: white;
     border: none;
     cursor: pointer;
-}
-
-button:hover{
-    background-color: #458ea0;
-}
-
-
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
