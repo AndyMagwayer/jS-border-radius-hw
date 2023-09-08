@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>js-br-hw</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>MDN Search</h1>
-      <input type="text" id="searchInput" placeholder="Search...">
+  <div class="container">
+    <h1>Gradient Generator</h1>
+    
+    <div class="gradient-preview"></div>
+    
+    <div class="form-group">
+      <label for="color1">Color 1:</label>
+      <input type="color" id="color1">
     </div>
-  </header>
-
-  <main>
-    <div class="container">
-      <section id="searchResults">
-        
-      </section>
+    
+    <div class="form-group">
+      <label for="color2">Color 2:</label>
+      <input type="color" id="color2">
     </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>© 2021 MDN Search. All rights reserved.</p>
+    
+    <div class="form-group">
+      <label for="border-radius">Border Radius:</label>
+      <input type="number" id="border-radius" min="0" max="100">
     </div>
-  </footer>
+    
+    <button id="generate-btn">Generate</button>
+    
+    <textarea id="css-code" readonly></textarea>
+  </div>
 
   <script src="script.js"></script>
 </body>
